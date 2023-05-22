@@ -2,8 +2,8 @@ const express = require('express')
 const cors = require('cors')
 const morgan = require('morgan')
 const helmet = require('helmet')
-const postMessRout = require('./routes/postMessRouts')
-const fetchMessRout = require('./routes/fetchMessRouts')
+const postMessRout = require('./routes/postMessRoutes')
+const fetchMessRout = require('./routes/fetchMessRoutes')
 
 
 const app = express();
